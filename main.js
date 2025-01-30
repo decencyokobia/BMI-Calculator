@@ -21,7 +21,7 @@ function bmiCalculation(){
     display.value = Math.round(weight / ((height / 100) * (height / 100)) * 10)/ 10;
 
         if(display.value < 18.5){
-        message.textContent = `You are Underweight`;
+        message.textContent = `You are Underweight\n(Normal: 18.5 - 24.9)`;
         display.className = "underweight";
         message.className = "text";
         }
@@ -31,22 +31,22 @@ function bmiCalculation(){
         message.className = "text";
         }
         else if (display.value <= 29.9){
-        message.textContent = `You are Overweight`;
+        message.textContent = `You are Overweight\n(Normal: 18.5 - 24.9)`;
         display.className = "overweight";
         message.className = "text";
         }
         else if (display.value <= 34.9){
-        message.textContent = `Obesity (Class 1)`;
+        message.textContent = `Obesity (Class 1)\n(Normal: 18.5 - 24.9)`;
         display.className = "obese";
         message.className = "text";
         }
         else if (display.value <= 39.9){
-        message.textContent = `Obesity (Class 2)`;
+        message.textContent = `Obesity (Class 2)\n(Normal: 18.5 - 24.9)`;
         display.className = "obese";
         message.className = "text";
         }
         else {
-        message.textContent = `Obesity (Class 3)`;
+        message.textContent = `Obesity (Class 3)\n(Normal: 18.5 - 24.9)`;
         display.className = "obese";
         message.className = "text";
         }
