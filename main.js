@@ -12,7 +12,7 @@ function bmiCalculation(){
 
 
     if(!weight || !height){
-       alert(`complete all fields`);
+       alert(`Missing fields / Invalid Entry`);
         return;
     }
 
@@ -26,7 +26,7 @@ function bmiCalculation(){
         message.className = "text";
         }
         else if (display.value <= 24.9){
-        message.textContent = `Healthy Weight! 👍🏽`;
+        message.textContent = `Healthy Weight!`;
         display.className = "healthy_Weight";
         message.className = "text";
         }
