@@ -180,8 +180,11 @@
 }
 
 @media screen and (max-width: 960px){
-    .app_container {
+    body {
         margin: auto;
         min-height: 100vh;
+    }
+    .app_container {
+        margin: auto;
     }
 }
