@@ -18,7 +18,7 @@ function bmiCalculation(){
 
     else {
      
-    display.value = Math.round(weight / ((height / 100) * 2) * 10)/ 10;
+    display.value = Math.round(weight / ((height / 100) * (height / 100)) * 10)/ 10;
 
         if(display.value < 18.5){
         message.textContent = `You are Underweight`;
