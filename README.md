@@ -70,6 +70,7 @@ To run this project locally, follow these steps:
 1. Enter your weight in **kilograms (kg)** and height in **centimeters (cm)**.
 2. Click the **Calculate** button.
 3. Your **BMI** and corresponding weight category will be displayed.
+4. Click the **Home Key** to reset screen.
 
 **Note**: Make sure to enter your height and weight values correctly for an accurate result.
 
