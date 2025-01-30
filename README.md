@@ -13,6 +13,7 @@ A simple and interactive **BMI (Body Mass Index)** calculator built with **HTML*
   - [Technologies Used](#technologies-used)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Screenshot](#screenshot)
 
 ---
 
@@ -71,4 +72,7 @@ To run this project locally, follow these steps:
 3. Your **BMI** and corresponding weight category will be displayed.
 
 **Note**: Make sure to enter your height and weight values correctly for an accurate result.
+
+## Screenshot
+<img src="./screenshot.png" alt="screenshot of bmi calculator app">
 
